@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>
+    <link rel="stylesheet" href="./css/style.css">
+    <title>Alura Challenge #1 | MSS  </title>
+</head>
+<body>
+    
+
+    <div class="galaxy">
+        <span class="stars"></span><span class="stars"></span><span class="stars"></span>
+        <span class="stars"></span><span class="stars"></span><span class="stars"></span>
+        <span class="stars"></span><span class="stars"></span><span class="stars"></span>
+    </div>
+
+<main class="main">
+
+    <div class="contenedor">
+        <h1>Cifrado & Descifradoㅤ<span class="caract">&#160;</span></h1>
+    </div>
+
+        <div class="form box">
+            <form id="miForm">
+                <p>NOTA: Solo se permiten letras minúsculas sin acento</p>
+                <label for="">Mensaje:</label>
+                <input id="mensaje" type="text" placeholder="Ingrese el texto aqui">
+                
+                <div class=buttons>
+                    <button id="btn-encriptar"><i class="fas fa-lock"></i> Encriptar</button>
+                    <button id="btn-desencriptar"><i class="fas fa-lock-open"></i> Desencriptar</button>
+                </div>
+
+                <div class="msg box">
+                    <label for="">Resultado:</label>
+                    <input class="text-input" type="text" id="resultado" readonly="readonly" placeholder="Este es el resultado">
+                </div>
+
+            </form>
+
+        <div class="boton-cp">
+            <button id="btn-copy"><i class="fas fa-copy"></i> Copiar</button>
+            <button id="btn-limpiar"><i class="fas fa-broom"></i> Limpiar</button>
+        </div>
+
+        <div class="msg-error">
+            <span class="error" id="error"></span>
+        </div>
+
+        </div>
+    </main>
+
+    <footer>
+        <span>Copyright  <span class="far fa-copyright"></span> 2022 - Alura Challenge - Web Design by 
+        <a href="https://www.instagram.com/mssj.11/" target="_blank" >M.S.S</a> </span>
+    </footer>
+
+
+<script type="text/javascript" src="./js/script.js"></script>
+
+</body>
+</html>
